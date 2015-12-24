@@ -1,0 +1,59 @@
+/*
+ * Theme Name  : Hani <3 Bayu
+ * Author      : Hapsari Tilawah
+ * Author URI  : http://www.facebook.com/hapsaritilawah
+ */
+
+hr {
+   position: static;
+   display: block;
+   z-index: 10;
+   -webkit-margin-before: 0em;
+   -webkit-margin-after: 0em;
+   -webkit-margin-start: auto;
+   -webkit-margin-end: auto;
+   border: none;
+   color: #000;
+   background-color: #000;
+ }
+
+.top{
+}
+
+.bottom{
+   position: fixed;
+   left: 50%;
+   margin-left: -39em;
+   width: 78em;
+   bottom: 0;
+   height: 9em;
+   border-top: 3px solid #000;
+ }
+
+#hani{
+   position: fixed;
+   left: 25%;
+   margin-left: -8em;
+   /*left: 50%;
+   margin-left: -11.5em;*/
+   bottom: 4em;
+   width: 15em;
+   height: 30em;
+   background: url('../images/hani.svg') bottom no-repeat;
+   background-size: 24em;
+   z-index: 10;
+ }
+
+#bayu{
+   position: fixed;
+   left: 75%;
+   margin-left: -8em;
+   /*left: 50%;
+   margin-left: -3em;*/
+   bottom: 4em;
+   width: 15em;
+   height: 30em;
+   background: url('../images/bayu.svg') bottom no-repeat;
+   background-size: 24em;
+   z-index: 10;
+ }
